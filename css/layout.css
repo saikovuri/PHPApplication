@@ -1,13 +1,97 @@
+
 .footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
+	position: relative;
+
+}
+.text {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center
 }
 
-.content{
+
+#h3{
 	text-align: center;
+}
+
+.heading{
+	margin-top: -25px;
+	text-align: center;
+}
+
+
+.foot{
+	position: relative;
+
+}
+
+.para {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center
+}
+
+.viewfoot{
+	position: relative;
+
+}
+
+.viewpara {
+	margin-top: 100px;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	text-align: center
+}
+
+.content{ 
+	text-align: center;
+	margin-top: 200px;
+}
+
+.create{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 550px) {
+	
+	.viewpara {
+		margin-top: 50px;
+	}
+	.content{ 
+		font-size: 13px;
+	}
+
+
+	.column{
+		position:absolute;
+	}
+	.text {
+		
+		text-align: center
+	}
+
+	.but{
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.heading{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.foot {
+		position: relative;
+		margin-top: 20px;
+	}
+
+	.para {
+		position: relative;
+		bottom: 0;
+		width: 100%;
+		text-align: center
+	}
+
 }

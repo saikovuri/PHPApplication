@@ -1,1 +1,1 @@
-# Basic PHP Application
+# Basic PHP Application with CRUD operations

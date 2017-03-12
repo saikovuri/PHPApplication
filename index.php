@@ -5,7 +5,7 @@ include("includes/menu.php");
 ?>
 
 <div>
-	<p class="content">Basic PHP web application to demonstrate</p>
+	<h3 class="content">Basic PHP web application to demonstrate few basic skills</h3>
 
 </div>
 
