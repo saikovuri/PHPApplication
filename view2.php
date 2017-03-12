@@ -26,8 +26,7 @@ include("includes/pagination.php");
 		<?php } ?>
 
 
-		    <h3 class="heading">PHP CRUD</h3>
-	</div>
+</div>
 	<div class="row">
 		<p class="create">
 			<a href="create.php" class="btn btn-success">Create</a>

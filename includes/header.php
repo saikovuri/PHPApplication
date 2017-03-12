@@ -34,4 +34,4 @@
 </head>
 <body>
 
-	<h3 id="h3"> You are in <?php echo $page_name; ?> </h3>
+	

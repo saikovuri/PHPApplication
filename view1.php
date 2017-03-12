@@ -1,5 +1,5 @@
 <?php
-$page_name="View 1";
+$page_name="Inline edit and delete";
 include("includes/header.php");
 include("includes/menu.php");
 include("includes/queries.php");

@@ -19,8 +19,11 @@ function displayresult(){
 
 }
 return $data;
-}
-echo '<pre>'; print_r(displayresult()); echo '</pre>'; 
+}?>
+
+<h3 class="array">Displaying data by pulling into associate array</h3>
+
+<?php echo '<pre>'; print_r(displayresult()); echo '</pre>'; 
 ?>
 
 
